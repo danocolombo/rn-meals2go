@@ -1,19 +1,19 @@
 import React from "react";
 import { StatusBar, StyleSheet, View, SafeAreaView } from "react-native";
 import { Searchbar } from "react-native-paper";
-import { RestaurantList } from "../components/restaurant-info.component";
-export const RestaurantScreen = () => {
+import { RestaurantInfo } from "../components/restaurant-info.component";
+export const RestaurantsScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.search}>
         <Searchbar />
       </View>
       <View style={styles.list}>
-        <RestaurantList />
+        <RestaurantInfo />
       </View>
     </SafeAreaView>
   );
-};
+}; 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
