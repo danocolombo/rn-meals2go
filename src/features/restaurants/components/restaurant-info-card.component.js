@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components/native";
 import { Card } from "react-native-paper";
-import { Text, StyleSheet } from "react-native";
 
 const Title = styled.Text`
   padding: 10px;
